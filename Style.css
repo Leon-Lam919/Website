@@ -11,6 +11,12 @@ p{
     margin-left:  50px;
 }
 
+p1{
+    color: #444;
+    font-size: 26px;
+    margin-right: 400px;
+}
+
 .container{
     width: 80%;
     margin: 0 auto;
@@ -43,11 +49,12 @@ nav ul{
 
 nav li{
     display: inline-block;
-    margin-left:70px;
-    padding: 25px;
+    margin-left:50px;
+    padding: 20px;
 
     position: relative;
 }
+
 
 nav a{
     color: #444;
