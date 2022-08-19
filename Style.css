@@ -17,6 +17,10 @@ p1{
     margin-right: 400px;
 }
 
+#self{
+    margin-left: 50px;
+}
+
 .container{
     width: 80%;
     margin: 0 auto;
