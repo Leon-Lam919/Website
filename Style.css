@@ -1,18 +1,8 @@
 body{
-    margin: 0;
     background: #102131;  
     font-family: sans-serif;
     font-weight: 300;
-}
-
-   
-#container {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    margin: auto;
-    transform: rotate(45deg);
-    top: 0; bottom: 0; left: 0; right: 0;
+    margin: 0px;
 }
 
 p{
@@ -24,20 +14,24 @@ p{
 p1{
     color: #444;
     font-size: 26px;
-    margin-right: 400px;
+    margin-right: 560px;
 }
 
-#self{
-    margin-left: 50px;
+.inner{
+    font-size: 30px;
+    margin-top: 150px;
+    margin-right: 75px;
+    color: blueviolet;
 }
 
 .container{
-    width: 80%;
+    display: flex;
+    width: 95%;
     margin: 0 auto;
 }
 
 header{
-    background: #55d6aa;
+    background-color: cornflowerblue;
 }
 
 header::after{
@@ -46,10 +40,6 @@ header::after{
     clear: both;
 }
 
-.logo{
-    float: left;
-    padding: 10px;
-}
 
 nav{
     float: right;
@@ -58,12 +48,11 @@ nav{
 nav ul{
     margin: 0;
     padding: 0;
-    list-style: none;
 }
 
 nav li{
     display: inline-block;
-    margin-left:50px;
+    margin-left:40px;
     padding: 20px;
 
     position: relative;
